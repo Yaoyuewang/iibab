@@ -12,6 +12,6 @@ iibab is a Python Slack bot is designed to streamline the process of managing Go
 **Database Tracking:** The bot employs a SQLite database to track document interactions. This database logs details such as document creation, sharing, and archiving activities, offering valuable insights into document usage and management.
 
 # How to use project 
-
+![Description of Picture1](images/picture1.png)
 # License 
 [MIT](https://choosealicense.com/licenses/mit/)
