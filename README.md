@@ -15,9 +15,9 @@ iibab is a Python Slack bot is designed to streamline the process of managing Go
 
 **Creating a document**  
 
-To create a google docs file, type “@iibab” in any channel.  
+To create a Google Docs file, type “@iibab” in any channel.  
 
-The bot will create a google docs file and send a direct message with the document link.  
+The bot will create a Google Docs file and send a direct message with the document link.  
 
 To access direct messages with iibab, click on iibab in the apps section in the left side of your screen and then click messages.  
 
@@ -40,7 +40,7 @@ This is used to keep track of what documents you are working on and if you need 
 
 **Sharing a document** 
 
-To share a document, hover over a google docs link provided by the bot, click the three vertical dots which says more actions.
+To share a document, hover over a Google Docs link provided by the bot, click the three vertical dots which says more actions.
 
 
 Click “Share Document iibab”.
@@ -61,19 +61,21 @@ If the emails provided are invalid, e.g., they are not associated with Slack use
 ![Popup to enter email addresses for sharing](images/Picture6.png)
 
 **Archiving a document** 
-To archive a document hover over a google docs link provided by the bot, click the three vertical dots which says more actions.
+To archive a document hover over a Google Docs link provided by the bot, click the three vertical dots which says more actions.
 
 Click “Archive Document iibab”.
 
-The document will be saved to where your directory is specified, posted into an FAQ read only channel with its post number and then deleted.
+The document will be saved to where your directory is specified, posted into an FAQ read only channel, and then deleted.
 
-The document will no longer appear in the list of files, as it is no longer active.
+The document will no longer appear in the list of active files, as it is no longer active.
 
 If successful, you will get a message “[Document title] successfully archived see post #X.
 
-If “Archive Document” is clicked on an inactive link or a message without a link, you will get a message “Invalid, please click on active document link”.
+If “Archive Document” is clicked on an inactive link or a message without a link, you will receive the message “Invalid, please click on active document link”.
 
 Users will archive a document when they are finished with an issue or instruction and want to share it with their classmates or coworkers.
+
+Everyone can then access the specified FAQ channel to look for solutions to issues or instructions for specific tasks all within Slack. 
 
 ![More actions button](images/Picture4.png) 
 ![Archive button](images/Picture5.png)
